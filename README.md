@@ -5,8 +5,13 @@ A Rust library to check if a number is equal to fourtytwo.
 ## Usage
 
 ```rust
-let c = Is::new(42).fourtytwo();
-assert_eq!(true, c);
+// simple
+let a = Is::new(42).fourtytwo();
+assert_eq!(true, a);
+
+// advanced abstract numerical operations
+let b = Is::new(42).plus(24).minus(24).fourtytwo();
+assert_eq!(true, b);
 ```
 ## Acknowledgments
 
