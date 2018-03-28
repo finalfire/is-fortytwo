@@ -3,4 +3,10 @@ name = "fourtytwo"
 version = "0.1.0"
 authors = ["finalfire <f.cauteruccio@gmail.com>"]
 
-[dependencies]
+[lib]
+name = "is_fourtytwo"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
