@@ -10,4 +10,6 @@ fn test() {
     assert_eq!(true, Is::new(42).fourtytwo());
     assert_eq!(false, Is::new(42).plus(1).fourtytwo());
     assert_eq!(false, Is::new(42).minus(1).fourtytwo());
+    assert_eq!(true, Is::new(1764).square_of());
+    assert_eq!(true, Is::new(42).plus(-26).lesser_than());
 }
