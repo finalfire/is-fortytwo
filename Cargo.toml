@@ -1,0 +1,6 @@
+[package]
+name = "fourtytwo"
+version = "0.1.0"
+authors = ["finalfire <f.cauteruccio@gmail.com>"]
+
+[dependencies]
