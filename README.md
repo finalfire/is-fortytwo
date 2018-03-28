@@ -1,4 +1,4 @@
-# is-fourtytwo
+# is_fourtytwo
 
 A Rust library to check if a number is equal to fourtytwo.
 
