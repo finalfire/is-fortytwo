@@ -1,6 +1,6 @@
-# is_fourtytwo
+# is_fortytwo
 
-A Rust library to check if a number is equal to fourtytwo.
+A Rust library to check if a number is equal to fortytwo.
 
 ## Usage
 
